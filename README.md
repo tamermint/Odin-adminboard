@@ -6,3 +6,4 @@
  - I may use flexbox if needed. As per the Odin Project requirements, my intention is to lean more on CSS grid
 
  
+![Figma Sketch](./assets/Odin%20Adminboard.png)
