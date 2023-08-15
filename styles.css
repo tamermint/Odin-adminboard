@@ -13,31 +13,38 @@
 
 body {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 200px 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-   /*  grid-template-areas: 
-        "dash dash dash head head head head head head"
-        "dash dash dash head head head head head head"
-        "dash dash dash proj proj proj proj proj proj"
-        "dash dash dash proj proj proj proj proj proj"
-        "dash dash dash proj proj proj proj proj proj"
-        "dash dash dash proj proj proj proj proj proj"
-        "dash dash dash proj proj proj proj proj proj"
-        "dash dash dash proj proj proj proj proj proj"
-        "dash dash dash proj proj proj proj proj proj"
-        "dash dash dash proj proj proj proj proj proj"; */
+    grid-template-areas: 
+        "dash head head head"
+        "dash proj proj proj"
+        "dash proj proj proj"
+        "dash proj proj proj";
+        
     gap: 10px;
-    border: 5px solid black;
+    
 }
 
 .dashboard {
     background-color: #00A3FF;
 }
+#dash {
+    grid-area: dash;
+    border: 1px solid black;
+}
 
 .header {
     background-color: #FFE500;
 }
+#head {
+    grid-area: head;
+    border: 1px solid black;
+}
 
 .project-area {
     background-color: darksalmon;
+}
+#proj {
+    grid-area: proj;
+    border: 1px solid black;
 }
