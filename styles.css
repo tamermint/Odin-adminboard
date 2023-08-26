@@ -1,6 +1,6 @@
 * {
     font-family: 'Preahvihear', sans-serif;
-    /* box-sizing: border-box; */
+    /* box-sizing: border-box;  */
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -127,7 +127,7 @@ body {
 }
 
 .project-area {
-    background-color: darksalmon;
+    background-color: whitesmoke;
 }
 #proj {
     grid-area: proj;
