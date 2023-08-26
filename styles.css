@@ -67,9 +67,53 @@ body {
 .header {
     background-color: #FFE500;
 }
+
+.header-top {
+    display: flex;
+    padding: 1em;
+    height: 50px;
+}
+
+#search-icon {
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+#search-icon, #notify-icon {
+    width: 2em;
+    height: 2em;
+    margin-top: 0.8em;
+}
+
+#search-bar {
+    border-radius: 20px 20px 20px 20px;
+    height: 2em;
+    width: 50%;
+    margin-top: 1em;
+    border-width: 0;
+}
+
+#profile-pic1 {
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+    margin-right: 2em;
+}
+
+.header-top > #notify-icon {
+    margin-left: 20em;
+}
+
+.header-top > h3 {
+    align-self: center;
+}
+
+#notify-icon, #profile-pic1 {
+    margin-left: 3em;
+}
+
 #head {
     grid-area: head;
-    border: 1px solid black;
 }
 
 .project-area {
@@ -77,5 +121,5 @@ body {
 }
 #proj {
     grid-area: proj;
-    border: 1px solid black;
+    
 }
