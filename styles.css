@@ -116,6 +116,16 @@ body {
     grid-area: head;
 }
 
+.header-bottom {
+    display: flex;
+}
+
+#main-pic {
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+}
+
 .project-area {
     background-color: darksalmon;
 }
