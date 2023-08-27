@@ -117,11 +117,13 @@ body {
 #head {
     grid-area: head;
     box-shadow: 0 0 5px 1px #FFE500;
+    padding-bottom: 20px;
 }
 
 .header-bottom {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .header-bottom-left {
@@ -138,6 +140,15 @@ body {
     gap: 2em;
 }
 
+button {
+    padding: 2px 20px 2px 20px;
+    border-radius: 20px 20px 20px 20px;
+    color: whitesmoke;
+    background-color: #00A3FF;
+    border-width: 1px;
+    border-color: #00A3FF;
+}
+
 #main-pic {
     border-radius: 50%;
     width: 7em;
@@ -150,5 +161,4 @@ body {
 #proj {
     grid-area: proj;
     box-shadow: 0 0 10px 2px whitesmoke;
-    
 }
