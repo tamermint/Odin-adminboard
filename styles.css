@@ -162,7 +162,7 @@ button {
     grid-area: proj;
     box-shadow: 0 0 10px 2px whitesmoke;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
         "thumbnail trend-grid"
@@ -175,7 +175,36 @@ button {
 
 .thumbnail-grid { 
     grid-area: thumbnail;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-areas: 
+        "proj-title proj-title"
+        "proj-1 proj-2"
+        "proj-3 proj-4";
+    gap: 20px;
 }
+.thumbnail-grid > * {
+    border: 1px solid black;
+}
+
+#proj-1 {
+    grid-area: proj-1;
+
+}
+
+#proj-2 {
+    grid-area: proj-2;
+}
+
+#proj-3 {
+    grid-area: proj-3;
+}
+
+#proj-4 {
+    grid-area: proj-4;
+}
+
 .online-grid {
     grid-area: friend;
 }
