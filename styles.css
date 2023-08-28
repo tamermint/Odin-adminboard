@@ -162,7 +162,7 @@ button {
     grid-area: proj;
     box-shadow: 0 0 10px 2px whitesmoke;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
         "thumbnail trend-grid"
@@ -238,9 +238,20 @@ a:visited {
     color: black;
 }
 
+.online-grid img {
+    width: 4em;
+    height: 4em;
+}
+
 .online-grid {
     grid-area: friend;
 }
+
+#online-card {
+    display: grid;
+    
+}
+
 .trending-grid {
     grid-area: trend-grid;
 }
