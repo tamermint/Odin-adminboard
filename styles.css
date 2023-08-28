@@ -161,4 +161,25 @@ button {
 #proj {
     grid-area: proj;
     box-shadow: 0 0 10px 2px whitesmoke;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "thumbnail trend-grid"
+        "thumbnail friend";
 }
+
+.thumbnail-grid, .online-grid, .trending-grid {
+    border: 1px solid black;
+}
+
+.thumbnail-grid { 
+    grid-area: thumbnail;
+}
+.online-grid {
+    grid-area: friend;
+}
+.trending-grid {
+    grid-area: trend-grid;
+}
+
