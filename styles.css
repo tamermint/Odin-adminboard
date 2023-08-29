@@ -169,7 +169,7 @@ button {
         "thumbnail friend";
 }
 
-.online-grid, .trending-grid {
+.trending-grid {
     border: 1px solid black;
 }
 
@@ -234,7 +234,7 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a:visited #new-msg {
     color: black;
 }
 
@@ -245,11 +245,30 @@ a:visited {
 
 .online-grid {
     grid-area: friend;
+    padding: 20px;
+    text-align: center;
+    background-color: azure;
+    border-radius: 20%;
+}
+
+#online-card p > span {
+    font-size: 10px;
+    color: lightgrey;
+    text-align: left;
+}
+
+#online-card p > #new-msg {
+    color: black;
 }
 
 #online-card {
     display: grid;
-    
+    grid-template-columns: 60px 100px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /* text-align: center; */
+    justify-content: left;
+    align-items: center;
 }
 
 .trending-grid {
