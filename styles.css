@@ -234,7 +234,7 @@ a {
     text-decoration: none;
 }
 
-a:visited #new-msg {
+a:visited {
     color: black;
 }
 
