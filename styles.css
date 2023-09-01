@@ -169,10 +169,6 @@ button {
         "thumbnail friend";
 }
 
-.trending-grid {
-    border: 1px solid black;
-}
-
 .thumbnail-grid { 
     grid-area: thumbnail;
     display: grid;
@@ -273,5 +269,31 @@ a:visited {
 
 .trending-grid {
     grid-area: trend-grid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#trend-card {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-columns: 1fr;
+    background-color: azure;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#article-1 > p, #article-2 > p, #article-3 > p {
+    font-size: smaller;
+    margin: 5px;
+    color: rgb(115, 113, 113);
+}
+
+#article-1 > h4, #article-2 > h4, #article-3 > h4 {
+    font-size: medium;
+    margin: 5px;
 }
 
